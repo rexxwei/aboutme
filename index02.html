@@ -2,36 +2,39 @@
 <html lang="en">
 <head>
 
-     <title>Kaiyuan "Rexx" Wei</title>
+    <title>Kaiyuan "Rexx" Wei</title>
 
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-     <meta name="description" content="">
-     <meta name="keywords" content="">
-     <meta name="author" content="Tooplate">
-     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Tooplate">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-     <link rel="stylesheet" href="css/bootstrap.min.css">
-     <link rel="stylesheet" href="css/all.min.css">
-     <link rel="stylesheet" href="css/owl.carousel.min.css">
-     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-     <!-- MAIN CSS -->
-     <link rel="stylesheet" href="css/tooplate-ben-resume-style.css">
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/tooplate-ben-resume-style.css">
     <style type="text/css">
-        #text-slider, ul
+        #slider, ul
         {
-            height: 300px;
+            height: 200px;
         }
-        #text-slider
+
+        #slider
         {
             margin: auto;
             overflow: hidden;
-            background:#f4f4f4;
+            padding: 20px;
+            margin-top: 50px;
             position: relative;
-            max-width: 600px;
+            width: 600px;
         }
-        #text-slider li
+
+        #slider li
         {
             float: left;
             position: relative;
@@ -39,56 +42,47 @@
             display: inline-block;
             height: 200px;
         }
-        #text-slider ul
+
+        #slider ul
         {
             list-style: none;
             position: absolute;
             left: 0px;
             top: 0px;
             width: 9000px;
-            transition: left .3s linear;
-            -moz-transition: left .3s linear;
-            -o-transition: left .3s linear;
-            -webkit-transition: left .3s linear;
+            transition: left .2s linear;
+            -moz-transition: left .2s linear;
+            -o-transition: left .2s linear;
+            -webkit-transition: left .2s linear;
             margin-left: -25px;
-             font-family: century gothic;
-             color: #666;
+          font-family: open sans;
+          color: #666;
         }
 
-        .text-slider-container
+        /*** Content ***/
+        .slider-container
         {
+          color:#000;
             margin: 0 auto;
             padding: 0;
             width: 550px;
           min-height: 180px;
+          text-align:center;
         }
-        .text-slider-container h4
+
+        .slider-container h2
         {
-          font-family: 'Work sans', sans-serif;
-            color: #000;
-          font-weight:400;
-          font-size: 20px;
+            color: #fff;
         }
-        .text-slider-container h5 {
-            text-align: right;
-            font-weight:normal;
-            font-family: 'Questrial', sans-serif;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 150%;
-          color:#EE2D24;
-        }
-        .text-slider-container  p
+
+        .slider-container  p
         {
-          text-indent: 40px;
-            font-family: 'Questrial', sans-serif;
-            font-size: 15px;
-            color: #434343;
-            line-height: 200%;
-            margin:0 auto 0 auto;
             margin: 10px 25px;
-            text-align: justify;
+            font-weight: semi-bold;
+            line-height: 150%;
         }
+
+        /*** target hooks ****/
 
         @-webkit-keyframes slide-animation {
             0% {opacity:0;}
@@ -106,13 +100,13 @@
             98% {left:-1800px; opacity:0;} 
             100% {left:0px; opacity:0;}
         }
-        #text-slider ul
+
+        #slider ul
         {
-                 animation: slide-animation 10s infinite;
-            -webkit-animation: slide-animation 10s infinite;
+            -webkit-animation: slide-animation 8s infinite;
         }
-        /* use to pause the content on mouse over */
-        #text-slider ul:hover
+
+        #slider ul:hover
         {
             -moz-animation-play-state: paused;
             -webkit-animation-play-state: paused;
@@ -334,37 +328,40 @@
             </div>
 
 
-            <div id="text-slider">
+            <div id="slider">
                 <ul>
+                  <li>
+                  <div class="slider-container">
+                    <p>“Went with my wife, absolutely brilliant restaurant, the food tasted beautiful, so much depth and very well presented. As good if not better than any in the city centre. Will definitely be returning.” <br> Nathaniel Harwood – Google</p>
+                  </div>
+                  </li>
+                  
+                  
                     <li>
-                    <div class="text-slider-container">
-                        <h4>Heading text</h4>
-                        <p>simple content goes here</p>
-                        <h5>may be some Additional heading</h5>
-                    </div>
-                    </li>
-                     <li>
-                    <div class="text-slider-container">
-                        <h4>Heading text</h4>
-                        <p>simple content goes here</p>
-                        <h5>may be some Additional heading</h5>
-                    </div>
-                    </li>
-                    
+                    <div class="slider-container">
+                    <p>“Great friendly service, the staff don't make you feel rushed, but are also very attentive, and on hand all the time if needed, best Thai food I have had in years, flavours are out of this world, and extremely good prices for the quality you get is top notch!!!!!! Love it” <br>David Armstrong - Porter – Google</p>
+                  </div>
+                  </li>
                     <li>
-                        <div class="text-slider-container">
-                            <h4>Amazed by the fast, accurate workmanship</h4>
-                            <p>“You guys rock… seriously! Thank you so much for getting all those stamps back to me so fast! Wow!”</p>
-                            <h5>- Tina</h5>
-                        </div>
-                    </li>     
+                    <div class="slider-container">
+                    <p>“Possibly one of the best in Manchester. A menu designed and prepared by a very skilled chef, ably assisted by his wife who provides a friendly welcome. Always consistent and of high quality.” <br>Paul Fletcher – Google</p>
+                  </div>
+                  </li>
                     <li>
-                        <div class="text-slider-container">
-                            <h4>My stamps are fantastic</h4>
-                            <p> “I received the stamps this week and they are fantastic. Thanks so much for your work on perfecting them!”</p>
-                            <h5>- Amanda</h5>
-                        </div>
-                    </li>
+                    <div class="slider-container">
+                    <p>“Food was amazing and service could not have been better...we went for a quick lunch as our office is opposite the restaurant...very quick service...I am highly recommending this restaurant to all my family and friends...” <br>Nic Gent – Facebook Page</p>
+                  </div>
+                  </li>
+                   <li>
+                    <div class="slider-container">
+                    <p>“Went for the first time last night for my Husbands Birthday, friendly staff, very tasty food, would highly recommend, we will be back.” <br>Joanne Simms – Facebook Page</p>
+                  </div>
+                  </li>
+                   <li>
+                    <div class="slider-container">
+                    <p>“A lovely, well decorated restaurant, where great food is served by very friendly staff for a bargain price. The food is authentic and delicious. We'll definitely be returning.”<br>Joe H – Trip Advisor</p>
+                  </div>
+                  </li>
                 </ul>
             </div>
 
