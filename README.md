@@ -1,9 +1,9 @@
 <h2 align="center">👋 Hi, this is Kaiyuan</h2>
 <h4 align="left">I am Kaiyuan Wei (or call me Rexx), a passionate AI/ML/DS developer</h4>
 
-- 👨‍💻 Most my projects are demo on my [Portfolio Page](https://rexxwei.github.io/portfolio/)
+- 👨‍💻 Most my projects are demo on my [portfolio](https://rexxwei.github.io/portfolio/) page
 - 💬 Ask me about **Machine Learning, Data Analytic, Data Engineering**
-- 📄 Know about me at [my page](https://rexxwei.github.io/aboutme) or my [LinkedIn](https://www.linkedin.com/in/kaiyuan-wei-563753209/)
+- 📄 Know about me at my [page](https://rexxwei.github.io/aboutme) or [LinkedIn](https://www.linkedin.com/in/kaiyuan-wei-563753209/)
 - 📫 Or reach me at **rexxwei@outlook.com**
 
 <p align="left">
